@@ -1,0 +1,48 @@
+html, body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    border-bottom: 1px solid gray;
+}
+  
+header img {
+    height: 56px;
+    width: auto;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header li {
+    display: inline;
+    margin: 0px 16px;
+}
+
+#staff-password {
+    background-image: url('images/password-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 260px;
+}
+
+#customers-section {
+    background-image: url('images/user-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 24px;
+}
+
+#menu {
+    background-image: url('images/menu-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
