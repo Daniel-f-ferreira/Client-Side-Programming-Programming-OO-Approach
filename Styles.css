@@ -46,3 +46,97 @@ header li {
     background-size: cover;
     background-position: center;
 }
+
+#customers-section p {
+    font-weight: bold;
+}
+
+#menu {
+    color: #FFF;
+    font-weight: bold;
+    padding-bottom: 32px;
+}
+
+#menu h2 {
+    color: #000;
+}
+
+#menu h4 {
+    font-size: 24px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 32px;
+}
+
+.section h2 {
+    border-bottom: 4px solid #000;
+    width: fit-content;
+}
+
+#customers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+#customers > div {
+    width: 250px;
+    border: 1px solid gray;
+}
+
+#menu input {
+    width: 50px;
+    margin: 0px 8px 0px 16px;
+}
+
+#starters > div, #main > div, #desserts > div, #drinks > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+}
+
+#bill-overall {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    color: #000;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#bill-overall > div > div {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 4px;
+}
+
+#bill-overall button {
+   height: 50px;
+}
+
+#bill-overall input {
+    pointer-events: none;
+}
+
+#charts {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#charts h4 {
+    font-size: 20px;
+}
