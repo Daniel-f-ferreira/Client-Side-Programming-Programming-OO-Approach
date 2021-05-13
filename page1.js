@@ -33,6 +33,8 @@ window.onload = function() {
     createMenuSection('desserts');
     createMenuSection('drinks');
 
+    //method returns the element that has the ID  attribute  with specified atribute 
+
     document.getElementById('calculateBills').addEventListener("click", function() {
         var allSum = startersSum = mainSum = dessertsSum = drinksSum = vegetarianSum = nonVegetariamSum = 0;
 
